@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title > Survey Form </title>
+    <link rel="stylesheet" href="CSS/survey.css" type="text/css">
+
+</head>
+
+<body>
+
+        <h1 id="title" > CybertecValen Survey Form</h1>
+
+    <div class="main-body">
+       
+
+    <p id="description"> Please Kindly Fill In This Form To Let Us Know
+         Your Role In our company. </br> Thank you</p>
+
+         <form id="survey-form">
+            <div class="right-side">
+            <label id="name-label"> Name:  </label>
+             </div>
+
+         <input class="left-side field1" id="name" type="text" placeholder="Enter Your Name Please" name="name" required> </br> </br>
+
+         <div class="right-side">
+            <label id="email-label"> Email: </label> 
+            </div>
+
+        <input  class="left-side field1" id="email" type="email" placeholder="Enter Your Email Please" name="email" required> </br> </br>
+
+        <div class="right-side">
+            <label id="number-label">Age:  </label>
+            </div>
+
+        <input  class="left-side field1" id="number" type="number" placeholder="Please  Enter  Your Age" min="1" max="100" name="age" required> </br> </br>
+        
+        <div class="right-side">
+            <label id="positon-label"> The position you want in our company. </label>
+            </div> 
+
+        <select class="left-side field1"  id="dropdown" name="role">
+                <option disabled value>Choose From The Following</option>
+                <option  value="intern">Intern Students</option>
+                <option value="web">Web Developers</option>
+                <option value="Application">Application Developers</option>
+                <option value="Game">Game Developers</option>
+                <option value="Robotics">Robotics</option>
+                <option value="data"> Data Science</option>
+                <option value="overall"> Overall Software Developers </option>
+
+              </select> </br> </br>
+
+              <div class="right-side">
+            <label id="qualifications-label"> Your Qualifications  </br> </label> 
+            </div>
+
+              <ul class="left-side">
+                    <li>  <label> <input type="radio" name="radio-button" value="1"> Masters
+                      </label>  </li>
+                    <li>  <label> <input type="radio" name="radio-button" value="2" > Degree
+                    </label> </li>
+                    <li>  <label> <input type="radio" name="radio-button" value="3"> Diploma
+                    </label>  </li>
+                  <li>  <label> <input type="radio" name="radio-button" value="4" > Certified
+                  </label> </li>
+
+              </ul>
+
+              <div class="right-side">
+              <label id="experience-label">Programming Languages You Know </label> </br> 
+                </div>
+
+              <ul class="left-side">
+                    <li> <label> <input type="checkbox" value="1"> Html and Css </label></li>
+                    <li> <label> <input type="checkbox" value="2"> Javascript and Bootstrap </label></li>
+                    <li> <label> <input type="checkbox" value="3"> Python and C#  </label></li>
+                    <li> <label> <input type="checkbox" value="4"> Java and C++ </label></li>
+                    <li> <label> <input type="checkbox" value="5"> Swift and Json </label></li>
+                    
+              </ul>
+
+              <div class="right-side">
+              <label id="comment-label">Please Kindly Place Your Ideas Here </br>
+                   Depending On </br>
+                  What You Feel Is Either Write Or Wrong </label>
+                  </div>
+
+              <textarea  class="left-side field1" name="comment" placeholder="Only Comments!."></textarea> </br> </br>
+
+              <button type="submit" name="loginbtn">Submit Inputs</button>
+
+     </form>
+    
+    </div>
+</body>
+</html>
