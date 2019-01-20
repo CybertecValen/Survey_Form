@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title > Survey Form </title>
     <link rel="stylesheet" href="CSS/survey.css" type="text/css">
 
 </head>
 
 <body>
-
+        <div class="background-image">
+    <div class="back">
         <h1 id="title" > CybertecValen Survey Form</h1>
+    </div>
 
     <div class="main-body">
        
+        <form id="survey-form" >
 
+    <div class="nav-bar">
+       
+        <div class="pass-photo">
+                <nav>
+                        <h3 id="photo"> Please Place Your Photo Here! </h3>
+                    </nav>
+             </div>
+    </div>
+
+        <div class="word">
     <p id="description"> Please Kindly Fill In This Form To Let Us Know
-         Your Role In our company. </br> Thank you</p>
-
-         <form id="survey-form">
+         Your Role In our company.  Thank you</p>
+        </div>
+         
             <div class="right-side">
             <label id="name-label"> Name:  </label>
              </div>
@@ -34,7 +47,7 @@
             <label id="number-label">Age:  </label>
             </div>
 
-        <input  class="left-side field1" id="number" type="number" placeholder="Please  Enter  Your Age" min="1" max="100" name="age" required> </br> </br>
+        <input  class="left-side field1" id="number" type="number" placeholder="Please  Enter  Your Age" min="1" max="45" name="age" required> </br> </br>
         
         <div class="right-side">
             <label id="positon-label"> The position you want in our company. </label>
@@ -45,7 +58,7 @@
                 <option  value="intern">Intern Students</option>
                 <option value="web">Web Developers</option>
                 <option value="Application">Application Developers</option>
-                <option value="Game">Game Developers</option>
+                <option value="Game">Game Application</option>
                 <option value="Robotics">Robotics</option>
                 <option value="data"> Data Science</option>
                 <option value="overall"> Overall Software Developers </option>
@@ -94,5 +107,6 @@
      </form>
     
     </div>
+</div>
 </body>
 </html>
