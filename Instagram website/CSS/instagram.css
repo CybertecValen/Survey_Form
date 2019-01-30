@@ -1,0 +1,101 @@
+
+
+body{
+    background-color: aliceblue;
+}
+    .main-body{
+       margin-top:40px;
+        float:right;
+        width:500px;
+        margin-right:16%;
+
+}
+
+
+
+
+    .pic{
+    margin-top:40px;
+    float:left;
+    margin-left:70px;
+}
+    .head{
+        font-family: fantasy;
+        font-size:20px;
+    }
+
+    .friends h1{
+        font-size: 25px;
+    }
+
+    .facebook{
+        color:white;
+        margin-top:-4px;
+        height:30px;
+        padding:8px;
+        width:60%;
+        border: 2px solid rgb(0, 132, 255);
+        border-radius: 10px;
+        background-color:rgb(0, 132, 255);
+    }
+
+    .sub-form input{
+        padding:10px;
+        width:44%;
+        color: maroon;
+        border:none;
+    }
+
+    .sub-form button{
+        color:white;
+        padding:10px;
+        width:65%;
+        border: 2px solid rgb(0, 132, 255);
+        border-radius: 10px;
+        background-color:rgb(0, 132, 255);
+    }
+
+    .sub-form button:hover{
+        cursor: pointer;
+        background-color:greenyellow;
+    }
+
+     h1{
+        
+        color:gray;
+    }
+
+    .h h1{
+        margin-left:25%;
+    }
+
+    p{
+        
+        color:gray;
+    }
+
+    h3{
+        margin-left:50px;
+    }
+
+    a{
+        text-decoration:none;
+        color: rgb(0, 132, 255);
+    }
+
+    a:hover{
+        color:greenyellow;
+    }
+
+    .pics{
+        margin-left:70px;
+    }
+
+    .pics h5{
+        margin-left:99px;
+        margin-bottom:-1px;
+    }
+
+
+
+    
